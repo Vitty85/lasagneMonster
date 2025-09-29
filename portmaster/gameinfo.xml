@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gameList>
+  <game>
+    <path>./LasagneMonsters.sh</path>
+    <name>Lasagne Monsters</name>
+    <desc>Following the events of Water Closet, in which Walter Chambers hallucinated that he had been transported to a magical world, in which the only escape was down a toilet, our plucky hero returns to normal life, only to discover that the lasagne that had made him ill the days before has spawned a host of weird monsters that now inhabit the city's sewers! Not only that, but they've kidnapped lots of beautiful girls. Oh no, the horror! Walter takes it on himself to deal with the problem during his lunch break at work (he's got better things to do with his evenings and weekends). And so, descending into the depths of the road reserved for all sorts of waste, Walter prepares to do battle with the Lasagne Monsters!</desc>
+    <image>./lasagnemonsters/screenshot.png</image>
+    <releasedate>20250928T000000</releasedate>
+    <developer>stephenjsweeney</developer>
+    <publisher>Parallel Realities</publisher>
+    <genre>Platform</genre>
+    <players>1</players>
+  </game>
+</gameList>

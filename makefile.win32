@@ -1,0 +1,21 @@
+PROG = lasagneMonsters
+MAP_PROG = mapEditor
+
+include common.mk
+
+GAME_OBJS += $(OUT)/src/plat/win32/win32Init.o
+
+NPROCS = $(shell grep -c 'processor' /proc/cpuinfo)
+MAKEFLAGS += -j$(NPROCS)
+
+CXXFLAGS += `$(SDLC) --cflags` -DVERSION=$(VERSION) -DREVISION=$(REVISION) -DDATA_DIR=\"$(DATA_DIR)\" -DLOCALE_DIR=\"$(LOCALE_DIR)\"
+CXXFLAGS += -Wall -Wempty-body -ansi -Werror -Wstrict-prototypes -Werror=maybe-uninitialized -Warray-bounds
+
+LDFLAGS += `$(SDLC) --libs` -lSDL2main -lSDL2_mixer -lSDL2_image -lSDL2_ttf -lSDL2 -lm
+
+# linking the program.
+$(PROG): $(GAME_OBJS)
+	$(CC) -o $@ $(GAME_OBJS) $(LDFLAGS) -L$(LIBPATH)
+
+$(MAP_PROG): $(MAP_OBJS)
+	$(CC) -o $@ $(MAP_OBJS) $(LDFLAGS)

@@ -1,0 +1,82 @@
+[
+	{
+		"type" : "WT_INPUT",
+		"name" : "left",
+		"groupName" : "controls",
+		"x" : 250,
+		"y" : 150,
+		"text" : "Left"
+	},
+	{
+		"type" : "WT_INPUT",
+		"name" : "right",
+		"groupName" : "controls",
+		"x" : 250,
+		"y" : 190,
+		"text" : "Right"
+	},
+	{
+		"type" : "WT_INPUT",
+		"name" : "up",
+		"groupName" : "controls",
+		"x" : 250,
+		"y" : 230,
+		"text" : "Up"
+	},
+	{
+		"type" : "WT_INPUT",
+		"name" : "down",
+		"groupName" : "controls",
+		"x" : 250,
+		"y" : 270,
+		"text" : "Down"
+	},
+	{
+		"type" : "WT_INPUT",
+		"name" : "jump",
+		"groupName" : "controls",
+		"x" : 250,
+		"y" : 310,
+		"text" : "Jump"
+	},
+	{
+		"type" : "WT_INPUT",
+		"name" : "fire",
+		"groupName" : "controls",
+		"x" : 250,
+		"y" : 350,
+		"text" : "Fire"
+	},
+	{
+		"type" : "WT_INPUT",
+		"name" : "use",
+		"groupName" : "controls",
+		"x" : 250,
+		"y" : 390,
+		"text" : "Use"
+	},
+	{
+		"type" : "WT_INPUT",
+		"name" : "map",
+		"groupName" : "controls",
+		"x" : 250,
+		"y" : 430,
+		"text" : "Map"
+	},
+	{
+		"type" : "WT_INPUT",
+		"name" : "pause",
+		"groupName" : "controls",
+		"x" : 250,
+		"y" : 470,
+		"text" : "Pause"
+	},
+	{
+		"type" : "WT_BUTTON",
+		"name" : "back",
+		"groupName" : "controls",
+		"x" : 250,
+		"y" : 600,
+		"text" : "Back"
+	}
+]

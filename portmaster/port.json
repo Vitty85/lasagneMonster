@@ -1,0 +1,41 @@
+{
+    "version": 4,
+    "name": "lasagnemonsters.zip",
+    "items": [
+        "LasagneMonsters.sh",
+        "lasagnemonsters/"
+    ],
+    "items_opt": null,
+    "attr": {
+        "title": "Lasagne Monsters",
+        "desc": "Walter Chambers returns to normal life, only to discover that the lasagne that had made him ill the days before has spawned a host of weird monsters that now inhabit the city's sewers",
+        "inst": "Just download and play.",
+        "genres": [
+            "platformer"
+        ],
+        "porter": [
+            "Cebion"
+        ],
+        "image": {},
+        "rtr": true,
+        "runtime": [],
+        "reqs": [],
+        "arch": [
+            "aarch64"
+        ],
+        "desc_md": null,
+        "inst_md": null,
+        "exp": false,
+        "min_glibc": ""
+    },
+    "status": {
+        "source": "Unknown",
+        "md5": null,
+        "status": "Installed"
+    },
+    "files": {
+        "port.json": "lasagnemonsters/port.json",
+        "LasagneMonsters.sh": "LasagneMonsters.sh",
+        "lasagnemonsters/": "lasagnemonsters/"
+    }
+}
